@@ -1,0 +1,80 @@
+.tab-warper{
+
+}
+.react-tabs__tab-list{
+    display: flex;
+    list-style: none;
+    border-bottom: 1px solid #ddd;
+  }
+.react-tabs__tab-list li{
+    display: flex;
+    list-style: none;
+    margin-right: 60px;
+    cursor: pointer;
+    padding: 10px 0;
+    transition: all .2s;
+  }
+  .react-tabs__tab-list li:hover{
+    border-bottom: 3px solid #06A3D5 !important;
+  }
+  .react-tabs__tab{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    border: none;
+  }
+
+  .react-tabs__tab--selected{
+    color: #06A3D5;
+    border: none;
+    border-bottom: 3px solid #06A3D5 !important;
+  }
+
+
+  .form-title{
+    font-family: 'Roboto', sans-serif;
+  }
+
+  .form-wraper{
+    border: 1px solid #dedede;
+    background-color: #F2F2F2;
+    padding: 50px;
+    padding-bottom: 50px;
+  }
+
+  .form-button{
+      display: flex;
+      justify-content: end;
+  }
+  .form-button button{
+      width: 300px;
+      font-size: 14px;
+      color: #fff;
+      padding: 10px 0;
+  }
+
+  .form-devider{
+      display: block;
+      text-align: center;
+      margin-left: 60px;
+  }
+  .form-register-devider{
+      display: block;
+      text-align: center;
+      margin-left: 123px;
+  }
+
+  @media screen and (max-width: 480px) {
+    .form-wraper{
+        padding: 20px 10px;
+    }
+  }
+  @media screen and (max-width: 768px) {
+      
+  }
+  @media screen and (max-width: 1024px) {
+      
+  }
+  @media screen and (max-width: 1200px) {
+      
+  }
